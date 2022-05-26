@@ -9,10 +9,11 @@ let numero2: number = Number(prompt("Ingresar un segundo Numero entero:"));
 function esMultiplo(dividendo: number, divisor: number) {
 	let resto: number;
 
-	console.log(dividendo % divisor === 0);
+	console.log(dividendo % divisor === 0);//no es necesario
 
 	//NOTA: muestra los numeros en su orden ingresado, aunque en el enunciado no los pida
 	resto = dividendo % divisor;
+//la nota es mas util arriba de la funcion explicando que hace tiene la misma
 	if (resto === 0) {
 		console.log("El numero: " + dividendo, "es multiplo de: " + divisor);
 	} else {
@@ -21,3 +22,4 @@ function esMultiplo(dividendo: number, divisor: number) {
 }
 
 esMultiplo(numero1, numero2);
+//Esta muy bien el uso de la funcion.
