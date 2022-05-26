@@ -32,3 +32,5 @@ for (indice = 0; indice < 6; ) {
 	console.log("Suma de la posicion: ", indice, "igual a: " + sumaArreglos);
 	indice++;
 }
+//esta muy bien tu solucion, fijate que los for son casi identicos, para futuros ejercicios presta atencion a casos asi para usar funciones.
+//Los nombres de las variables deben ser representativos, grupo1Arreglo bien podria ser directamente arreglo1
